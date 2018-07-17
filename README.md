@@ -65,6 +65,7 @@
                 6. 4096文件大小(b)
                 7. Oct 15 2017修改时间
                 8. boot文件名
+        7. `ls > a.txt`重定向
     2. mkdir
         1. 原义make directory
         2. 选项
@@ -231,3 +232,6 @@
         2. 例子:
             1. chown hlg test 将当前目录下的test文件的所有者改为hlg
             2. 
+
+### 系统操作命令
+    1. reboot
