@@ -153,40 +153,46 @@
             2. -f动态显示
     8. vim
         1. 命令模式
-        gg 首行
-        G 末行
-        ^ 移动到当前行的非空格行首
-        0 移动到当前行行首
-        $ 移动到当前行行尾
-        i 在光标位置前面开始输入
-        I 在行首输入
-        a 在光标位置后面开始输入
-        A 在行尾输入
-        o 下一行输入
-        O 上一行输入
-        yy 复制当前行
-        2yy 复制光标以及往下2行
-        yw 复制一个单词
-        p 粘贴
-        dd 删除一行
-        dw 删除光标后面一个单词
-        x 删除光标所在字符
-        u 撤销
-        s 替换(:%s/old/new/g)
-        ctrl+r 反撤销
-        ctrl+v 列块操作
-        / 往下查找(/value),从头开始查找(%value),往上查找(?value),n下一个,N上一个
-    2. 末行模式
-        :q强制退出
-        :wq
-        :q!不保存退出
-    3. 插入模式
-    4. 虚拟环境
-        workon
-        workon name
-        deactivate 关闭虚拟环境
-        mkvirtualenv name
-        rmvirtualenv name
+            gg 首行
+            G 末行
+            ^ 移动到当前行的非空格行首
+            0 移动到当前行行首
+            $ 移动到当前行行尾
+            i 在光标位置前面开始输入
+            I 在行首输入
+            a 在光标位置后面开始输入
+            A 在行尾输入
+            o 下一行输入
+            O 上一行输入
+            yy 复制当前行
+            2yy 复制光标以及往下2行
+            yw 复制一个单词
+            p 粘贴
+            dd 删除一行
+            dw 删除光标后面一个单词
+            x 删除光标所在字符
+            u 撤销
+            s 替换(:%s/old/new/g)
+            ctrl+r 反撤销
+            ctrl+v 列块操作
+            / 往下查找(/value),从头开始查找(%value),往上查找(?value),n下一个,N上一个
+        2. 末行模式
+            :q强制退出
+            :wq
+            :q!不保存退出
+        3. 插入模式
+        4. 虚拟环境
+            workon
+            workon name
+            deactivate 关闭虚拟环境
+            mkvirtualenv name
+            rmvirtualenv name
+
+    9. cal -y 当前当前日历
+
+    10. date 查看日期
+    11. alias cy = 'cd py_case' 设置别名
+        unalias 取消别名
 ### 链接命令
     1. ln
         1. 功能: 生成链接文件
